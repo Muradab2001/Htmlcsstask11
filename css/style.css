@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+/* header start*/
+.all-text .box h1{
+color: white;
+}
+@media (max-width:586px) {
+    .all-text  .right{
+        display: none;
+    }
+    .all-text .box h1{
+        text-align: center;
+    }
+    .all-text .box p{
+        text-align: center;
+    }
+    .all-text .box .buttons{
+        width: 80%;
+        margin: auto;
+    }
+    .all-text .box .buttons a{
+        width: 100%;
+    } 
+    .all-text .box .buttons button{
+        width: 100%;
+    } 
+}
+/* header end*/
